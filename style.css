@@ -1,0 +1,119 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.cardbox {
+    border: 1px solid;
+    border-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 10px 60px 0 rgba(0, 0, 0, 0.452);
+    position: fixed;
+    inset: 0;
+    margin: auto;
+}
+
+.card img {
+    width: 250px;    
+    height: 250px;    
+    border-radius: 10%;
+    padding: 20px;
+    margin-bottom: 1px;
+    transform: translateX(5px);
+}
+
+.nft {
+    padding: 20px;
+    margin-top: -40px;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+h3:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.nft p {
+    color: gray;
+    font-size: 15px;
+}
+
+.eth i {
+    color: rgb(29,162,172);
+    transform: translateY(10px);
+    font-size: small;
+    font-weight: bold;
+}
+
+.days i {
+    color: gray;
+    transform: translate(180px, -10px);
+    font-size: 10px;
+}
+
+.days i b {
+    margin: 5px;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+}
+
+.i-credit img {
+    width: 30px;
+    height: 30px;
+    transform: translate(-20px, -20px);
+}
+
+.i-credit .border {
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: white;
+    width: 30px;
+    height: 30px
+}
+
+.i-text {
+    color: gray;
+    padding-left: 5px;
+    transform: translate(40px, -25px);
+    font-size: 13px;
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.attribution {
+    color: white;
+    margin-top: 30%;
+}
+
+.attribution a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.attribution a b {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution a:hover {
+    font-size: 15px;
+}
